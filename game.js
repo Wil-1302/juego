@@ -100,7 +100,7 @@ setInterval(() => {
   obstaculoRect.bottom > kittyRect.top + 30;
 
   if (colision) {
-    mensaje.innerText = "¡Game Over, mi amor! 😢 Inténtalo otra vez";
+    mensaje.innerText = "¡Game Over! 😢 Inténtalo otra vez";
 
     obstaculo.style.animation = "none";
     obstaculo.style.display = "none";
@@ -118,16 +118,16 @@ setInterval(() => {
 }, 10);
 // --- Mensajes románticos cada 5 puntos ---
 const mensajesBonitos = [
-  "💖 5 puntos 😘✨\nJas, tus ojitos iluminan mi día y mi corazón.",
-  "🌸 10 puntos 😍\nPrincesa, cada momento contigo se siente mágico.",
-  "🌈 15 puntos 💕\nOjitos de arroz, mi alegría crece cuando sonríes.",
-  "💫 20 puntos 🌹\nMi cielo, tu ternura hace mi mundo más bonito.",
-  "💗 25 puntos 🌟\nBonita, gracias por llenar mi vida de amor.",
-  "🌺 30 puntos 💖\nMi sol, cada latido mío susurra tu nombre.",
-  "✨ 35 puntos 😘\nMi princesa, contigo todo es más brillante y dulce.",
-  "🌹 40 puntos 💕\nOjitos bonitos, tus abrazos son mi refugio.",
-  "💞 45 puntos 🌈\nMi amor, mi corazón late más fuerte por ti.",
-  "💖 50 puntos 🌟\nPrincesa hermosa, gracias por hacer mi mundo perfecto."
+  "💖 5 puntos 😊\nEstaba pensando un rato y me di cuenta que tu buena vibra siempre me calma.",
+"🌸 10 puntos ✨\nHoy andaba medio estresado, pero pensar en ti me sacó una sonrisa.",
+"🌈 15 puntos 💭\nA veces uno solo necesita recordar a gente buena... y pensé en ti.",
+"💫 20 puntos 🌿\nCuando todo se complica, me acuerdo de las personas que me hacen sentir tranquilo, como tú.",
+"💗 25 puntos 🌼\nNo sé por qué, pero tu forma de ser siempre me da buena energía.",
+"🌺 30 puntos ☕\nEntre tanto caos, pensar en alguien con buena onda como tú fue un respiro.",
+"✨ 35 puntos 🌙\nSolo quería decir que tu forma de ver la vida me inspira bastante.",
+"🌹 40 puntos 🌤️\nTu amistad tiene ese efecto raro de hacer que el día se sienta más liviano.",
+"💞 45 puntos 📖\nMe puse a pensar en todo lo que valoro, y sí, tú estabas en esa lista.",
+"💖 50 puntos 🌟\nA veces no lo digo, pero te aprecio mucho. Gracias por existir y por ser tan tú."
 ];
 
 function mostrarPuntuacion() {
